@@ -2,7 +2,7 @@ name: Check DTEK Schedule
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # Проверка каждые 2 часа
+    - cron: '*/10 * * * *' # Проверка каждые 2 часа
   workflow_dispatch: # Позволяет запускать вручную кнопкой
 
 jobs:
